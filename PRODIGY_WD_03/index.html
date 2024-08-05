@@ -1,1 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+	
+<head> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script src="script.js"></script> 
+	<title>Tic Tac Toe</title>
+</head> 
 
+<body> 
+	<div id="main"> 
+		<h1>TIC TAC TOE</h1> 
+		<p id="ins"> 
+			Tap on the box!
+		</p> 
+		<br><br> 
+		<div class = "ui"> 
+			<div class="row"> 
+				<input type="text" id= "b1"
+					class="box" onclick="myfunc_3(); myfunc();"
+					readonly> 
+				<input type="text" id= "b2"
+					class="box" onclick="myfunc_4(); myfunc();"
+					readonly> 
+				<input type="text" id= "b3" class="box"
+					onclick="myfunc_5(); myfunc();"
+					readonly> 
+			</div> 
+			<div class="row"> 
+				<input type="text" id= "b4"
+					class="box" onclick="myfunc_6(); myfunc();"
+					readonly> 
+				<input type="text" id= "b5"
+					class="box" onclick="myfunc_7(); myfunc();"
+					readonly> 
+				<input type="text" id= "b6"
+					class="box" onclick="myfunc_8(); myfunc();"
+					readonly> 
+			</div> 
+			<div class="row"> 
+				<input type="text" id= "b7"
+					class="box" onclick="myfunc_9(); myfunc();"
+					readonly> 
+				<input type="text" id= "b8"
+					class="box" onclick="myfunc_10();myfunc();"
+					readonly> 
+				<input type="text" id= "b9"
+					class="box" onclick="myfunc_11();myfunc();"
+					readonly> 
+			</div> 
+		</div> 
+		<br><br>
+		
+		<button id="but" onclick="myfunc_2()"> 
+			RESTART 
+		</button> 
+		<br>
+		<p id="print"></p> 
+	</div> 
+</body> 
+
+</html>
